@@ -1,0 +1,14 @@
+.table{
+    width: 80%;
+    margin: auto;
+    background-color: aquamarine;
+    border-collapse: collapse;
+}
+.table__td{
+    border: solid 3px white;
+    padding: 5px;
+}
+.table__td_center{
+    text-align: center;
+    font-weight: 900;
+}

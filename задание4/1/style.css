@@ -1,0 +1,28 @@
+.container-1__bg{
+    background-color: blueviolet;
+    padding: 5px;
+}
+.container-1__text{
+    color: white;
+    padding: 10px;
+    border: solid 1px white;
+    margin: 0px;
+}
+.container-2__text{
+    background-color: blueviolet;
+    outline: solid 5px blueviolet;
+    color: white;
+    border: solid 1px white;
+    padding: 10px;
+}
+.container-3__table{
+    background-color: blueviolet;
+    padding: 5px;
+    width: 100%;
+}
+.container-3__text{
+    background-color: blueviolet;
+    border: solid 1px white;
+    color: white;
+    padding: 10px;  
+}
