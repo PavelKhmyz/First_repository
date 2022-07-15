@@ -1,1 +1,1 @@
-Awesome+tabs
+Awesome+tabs+pricing+tabs
