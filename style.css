@@ -88,7 +88,7 @@ img{vertical-align: top;}
     padding: 0px 30px 0px 30px;
 }
 
-/* --------------------------------------- */
+/* _________________________________________________ */
 
 .tabs__table{
     border-collapse: collapse;
@@ -164,3 +164,141 @@ img{vertical-align: top;}
     border: solid 1px rgba(198, 203, 205, 1);
     border-top: none;
 }
+
+/* _______________________________________________________ */
+
+.prcing{
+    background-color: rgba(245, 245, 245, 1);
+}
+.pricing__title{
+    font: 400 36px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 107px;
+}
+.pricing__border{
+    width: 170px;
+    margin: auto;
+    border: none;
+	border-top: 1px solid rgba(236, 121, 121, 1);
+    margin-top: 57px;
+}
+.pricing__subtitle{
+    font: 400 18px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(134, 135, 139, 1);
+    margin-top: 40px;
+}
+.pricing__table{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+.pricing__table_tab{
+    width: 370px;
+    height: 510px;
+    text-align: center;
+}
+.pricing__table_shadow{
+    box-shadow: 2px 2px 1em rgba(134, 135, 139, 1);
+    position: relative;
+    bottom: 20px;
+}
+.pricing__table_title{
+    font: 700 24px 'Open Sans', sans-serif;
+    background-color: rgba(51, 51, 51, 1);
+    color: white;
+    height: 60px;
+}
+.pricing__table_cost{
+    font: 700 36px 'Raleway', sans-serif;
+    background-color: rgba(51, 51, 51, 1);
+    color: white;
+    height: 100px;
+}
+.pricing__table_text{
+    font: 400 18px 'Raleway', sans-serif;
+    background-color: rgba(51, 51, 51, 1);
+    color: white;
+    height: 50px; 
+}
+.pricing__table_string{
+    font: 400 18px 'Raleway', sans-serif;
+    background-color: #FFFFFF;
+    color: rgba(134, 135, 139, 1);
+    height: 50px; 
+}
+
+/* __________________________________________________________ */
+
+.customers__title{
+    font: 400 36px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 107px;
+}
+.customers__border{
+    width: 170px;
+    margin: auto;
+    border: none;
+	border-top: 1px solid rgba(236, 121, 121, 1);
+    margin-top: 57px;
+}
+.customers__subtitle{
+    font: 400 18px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(134, 135, 139, 1);
+    margin-top: 40px;
+}
+.customers__reviews{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 83px;
+}
+.customers__reviews-block{
+    width: 370px;
+    height: 400px;
+}
+.customers__reviews-block_text{
+    background-color: #E2E2E2;
+    color: rgba(134, 135, 139, 1);
+    font: 400 18px 'Raleway', sans-serif;
+    line-height: 21.13px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 180px;
+    border-radius: 5px;
+}
+.customers__reviews-block_triangle{
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    background-color: #E2E2E2;
+    position: relative;
+    bottom: 15px;
+    left: 50px;
+}
+.customers__reviews-block_photo{
+    margin-top: 46px;
+    display: flex;
+    align-items: center;
+}
+.customers__reviews-block-info_name{
+    font: 700 24px 'Open Sans', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.customers__reviews-block-info_job{
+    font: 400 18px 'Raleway', sans-serif;
+    margin-top: 15px;
+}
+.customers__reviews-block-info{
+    margin-left: 30px;
+}
+
+/* _____________________________________________________ */
+
