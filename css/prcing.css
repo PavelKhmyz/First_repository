@@ -1,0 +1,67 @@
+.main-pricing{
+    background-color: rgba(245, 245, 245, 1);
+}
+.main-pricing__container{
+    max-width: 1170px;
+    margin: auto;
+}
+.main-pricing__container_title{
+    font: 400 36px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 107px;
+}
+.main-pricing__container_border{
+    width: 170px;
+    margin: auto;
+    border: none;
+	border-top: 1px solid rgba(236, 121, 121, 1);
+    margin-top: 57px;
+}
+.main-pricing__container_subtitle{
+    font: 400 18px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(134, 135, 139, 1);
+    margin-top: 40px;
+}
+.main-pricing__container__table{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+.main-pricing__container__table_tab{
+    width: 370px;
+    height: 510px;
+    text-align: center;
+}
+.main-pricing__container__table_shadow{
+    box-shadow: 2px 2px 1em rgba(134, 135, 139, 1);
+    position: relative;
+    bottom: 20px;
+}
+.main-pricing__container__table_title{
+    font: 700 24px 'Open Sans', sans-serif;
+    background-color: rgba(51, 51, 51, 1);
+    color: white;
+    height: 60px;
+}
+.main-pricing__container__table_cost{
+    font: 700 36px 'Raleway', sans-serif;
+    background-color: rgba(51, 51, 51, 1);
+    color: white;
+    height: 100px;
+}
+.main-pricing__container__table_text{
+    font: 400 18px 'Raleway', sans-serif;
+    background-color: rgba(51, 51, 51, 1);
+    color: white;
+    height: 50px; 
+}
+.main-pricing__container__table_string{
+    font: 400 18px 'Raleway', sans-serif;
+    background-color: #FFFFFF;
+    color: rgba(134, 135, 139, 1);
+    height: 50px; 
+}

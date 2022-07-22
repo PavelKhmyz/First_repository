@@ -1,0 +1,70 @@
+.main-reviews{
+    max-width: 1170px;
+    margin: auto;
+}
+.main-reviews_title{
+    font: 400 36px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 107px;
+}
+.main-reviews_border{
+    width: 170px;
+    margin: auto;
+    border: none;
+	border-top: 1px solid rgba(236, 121, 121, 1);
+    margin-top: 57px;
+}
+.main-reviews_subtitle{
+    font: 400 18px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(134, 135, 139, 1);
+    margin-top: 40px;
+}
+.main-reviews__customers{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 83px;
+}
+.main-reviews__customers-block{
+    width: 370px;
+    height: 400px;
+}
+.main-reviews__customers-block_text{
+    background-color: #E2E2E2;
+    color: rgba(134, 135, 139, 1);
+    font: 400 18px 'Raleway', sans-serif;
+    line-height: 21.13px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 180px;
+    border-radius: 5px;
+}
+.main-reviews__customers-block_triangle{
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    background-color: #E2E2E2;
+    position: relative;
+    bottom: 15px;
+    left: 50px;
+}
+.main-reviews__customers-block__photo{
+    margin-top: 46px;
+    display: flex;
+    align-items: center;
+}
+.main-reviews__customers-block__photo-info_name{
+    font: 700 24px 'Open Sans', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.main-reviews__customers-block__photo-info_job{
+    font: 400 18px 'Raleway', sans-serif;
+    margin-top: 15px;
+}
+.main-reviews__customers-block__photo-info{
+    margin-left: 30px;
+}

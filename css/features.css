@@ -1,0 +1,85 @@
+.main-features{
+    max-width: 1170px;
+    margin: auto;
+    padding-top: 99px;
+}
+
+.main-features__table{
+    border-collapse: collapse;
+}
+.main-features__table_td{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 1);
+    line-height: 19px;
+    width: 203px;
+    height: 40px;
+    text-align: center;
+    border-bottom: solid 1px rgba(198, 203, 205, 1);
+}
+.main-features__table_act{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 1);
+    line-height: 19px;
+    width: 203px;
+    height: 40px;
+    text-align: center;
+    border-top: solid 1px rgba(198, 203, 205, 1);
+    border-left: solid 1px rgba(198, 203, 205, 1);
+    border-right: solid 1px rgba(198, 203, 205, 1);
+    
+}
+.main-features__table_empty{
+    width: 561px;
+    height: 40px;
+    border-bottom: solid 1px rgba(198, 203, 205, 1);
+}
+.main-features__content{
+    border: solid 1px rgba(198, 203, 205, 1);
+    border-top: none;
+}
+.main-features__content__text{
+    display: inline-block;
+    width: 50%;
+    margin-left: 100px;
+}
+.main-features__content__text_title{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    width: 570px;
+    height: 124px;
+    padding-top: 47px;
+}
+.main-features__content__text_subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 21px;
+    margin-top: 27px;
+}
+.main-features__content__text_button{
+    margin-top: 27px;
+    width: 270px;
+    height: 58px;
+    background-color: rgba(236, 121, 121, 1);
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-features__content_img{
+    display: inline-block;
+    margin-left: 10px;
+}
+.main-features__content__text_button:hover{
+    background-color: rgba(171, 73, 73, 1);
+}
+.main-features__content__text_button:active{
+    background-color: rgba(236, 121, 121, 1);
+}

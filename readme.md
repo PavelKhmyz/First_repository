@@ -1,1 +1,1 @@
-Awesome+tabs+pricing+tabs
+Full layout+hover+active
