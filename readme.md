@@ -1,1 +1,1 @@
-Full layout+hover+active
+Full layout+hover+active+adaptive

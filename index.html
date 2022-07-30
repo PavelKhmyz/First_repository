@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title>Awesome</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/features.css">
@@ -14,13 +15,15 @@
         <link rel="stylesheet" href="css/footer.css">
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <header class="header">
             <div class="header-container">
                 <nav class="header-container__nav">
                     <div class="header-container__nav-container">
-                        <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
+                        <a href="#" class="header-container__nav-container_logo"><img class="header-container__nav-container_logo-img"src="img/logo.png" alt="logo"></a>
+                        <img class="header-container__nav-container_burger" src="img/burger.png" alt="img">
                         <div class="nav-container__nav-links">
                             <a href="#features" class="nav-container__nav-links_anchor">Features</a>
                             <a href="#about" class="nav-container__nav-links_anchor">About</a>
@@ -32,15 +35,15 @@
                 </nav>
                 <div class="header-container__content">
                     <div class="header-container__content-container">
-                        <div class="header-container__content-container__title">
-                            <img src="img/logo_big.png" alt="logo">
-                            <h1 class="header-container__content-container__title_h1">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-                            <hr class="header-container__content-container__title_line">
-                            <h5 class="header-container__content-container__title_h5">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
-                            <button class="header-container__content-container__title_button">Download</button>
+                        <div class="header-container__content-container__text">
+                            <img class="header-container__content-container__text_big-logo" src="img/logo_big.png" alt="logo">
+                            <h1 class="header-container__content-container__text_title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                            <hr class="header-container__content-container__text_line">
+                            <h5 class="header-container__content-container__text_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+                            <button class="header-container__content-container__text_button">Download</button>
                         </div>
                         <form class="header-container__content-container__form" action="#" method="get">
-                            <h4 class="header-container__content-container__form_h4">Try Your <span class="header-container__content-container__form_red">FREE</span> Trial Today</h4>
+                            <h4 class="header-container__content-container__form_title">Try Your <span class="header-container__content-container__form_red">FREE</span> Trial Today</h4>
                                 <input class="header-container__content-container__form_input" placeholder="Name" type="text" name="username">
                                 <input class="header-container__content-container__form_input" placeholder="E-mail" type="email" name="email">
                                 <input class="header-container__content-container__form_input" placeholder="Password" type="password" name="userpass">
@@ -52,18 +55,18 @@
             <div class="header__container-2">
                 <div class="header__container-2__links">
                     <div class="header__container-2__links-text">
-                        <h4 class="header__container-2__links-text_h4">Social Media</h4>
-                        <h5 class="header__container-2__links-text_h5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        <h4 class="header__container-2__links-text_title">Social Media</h4>
+                        <h5 class="header__container-2__links-text_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Aenean euismod bibendum laoreet.</h5>
                     </div>
                     <div class="header__container-2__links-img">
-                        <a href="https://www.facebook.com/" target="_blank"><img src="img/fb.png" alt="img"></a>
-                        <a href="https://twitter.com/" target="_blank"><img src="img/tw.png" alt="img"></a>
-                        <a href="https://ru.linkedin.com/" target="_blank"><img src="img/in.png" alt="img"></a>
-                        <a href="https://www.pinterest.com/" target="_blank"><img src="img/p.png" alt="img"></a>
-                        <a href="https://www.instagram.com/" target="_blank"><img src="img/inst.png" alt="img"></a>
-                        <a href="https://github.com/" target="_blank"><img src="img/git.png" alt="img"></a>
-                        <a href="#"><img src="img/hz.png" alt="img"></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img class="header__container-2__links-img-pic" src="img/fb.png" alt="img"></a>
+                        <a href="https://twitter.com/" target="_blank"><img class="header__container-2__links-img-pic" src="img/tw.png" alt="img"></a>
+                        <a href="https://ru.linkedin.com/" target="_blank"><img class="header__container-2__links-img-pic" src="img/in.png" alt="img"></a>
+                        <a href="https://www.pinterest.com/" target="_blank"><img class="header__container-2__links-img-pic" src="img/p.png" alt="img"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img class="header__container-2__links-img-pic" src="img/inst.png" alt="img"></a>
+                        <a href="https://github.com/" target="_blank"><img class="header__container-2__links-img-pic" src="img/git.png" alt="img"></a>
+                        <a href="#"><img class="header__container-2__links-img-pic" src="img/hz.png" alt="img"></a>
                     </div>
                 </div>
             </div>
@@ -98,26 +101,26 @@
                 <h2 class="main-about_title">WHY THIS IS AWESOME</h2>
                 <hr class="main-about_border">
                 <h5 class="main-about_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                
+                <div class="main-about__content">
                     <div class="main-about__blocks">
-                        <img src="img/icon_1.png" alt="icon_1">
+                        <img class="main-about__blocks_img" src="img/icon_1.png" alt="icon_1">
                         <h4 class="main-about__blocks_title">Thoughtful Design</h4>
                         <h5 class="main-about__blocks_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing 
                             elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</h5>
                     </div>
                     <div class="main-about__blocks">
-                        <img src="img/icon_2.png" alt="icon_2">
+                        <img class="main-about__blocks_img" src="img/icon_2.png" alt="icon_2">
                         <h4 class="main-about__blocks_title">Thoughtful Design</h4>
                         <h5 class="main-about__blocks_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing 
                             elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</h5>
                     </div>
                     <div class="main-about__blocks">
-                        <img src="img/icon_3.png" alt="icon_3">
+                        <img class="main-about__blocks_img" src="img/icon_3.png" alt="icon_3">
                         <h4 class="main-about__blocks_title">Thoughtful Design</h4>
                         <h5 class="main-about__blocks_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing 
                             elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</h5>
                     </div>
-                
+                </div>
             </div>
             <a name="pricing"></a>
             <div class="main-pricing">
@@ -177,7 +180,7 @@
                         </div>
                         <div class="main-reviews__customers-block_triangle"></div>
                         <div class="main-reviews__customers-block__photo">
-                            <img src="img/Ellipse_1.png" alt="img">
+                            <img class="main-reviews__customers-block__photo_img" src="img/Ellipse_1.png" alt="img">
                             <div class="main-reviews__customers-block__photo-info">
                                 <h4 class="main-reviews__customers-block__photo-info_name">Davis Rhiel Madsen</h4>
                                 <h5 class="main-reviews__customers-block__photo-info_job">Manager</h5>
@@ -192,7 +195,7 @@
                             quo suscipit.</div>
                         <div class="main-reviews__customers-block_triangle"></div>
                         <div class="main-reviews__customers-block__photo">
-                            <img src="img/Ellipse_2.png" alt="img">
+                            <img class="main-reviews__customers-block__photo_img" src="img/Ellipse_2.png" alt="img">
                             <div class="main-reviews__customers-block__photo-info">
                                 <h4 class="main-reviews__customers-block__photo-info_name">Jaydon Rosser</h4>
                                 <h5 class="main-reviews__customers-block__photo-info_job">Manager</h5>
@@ -207,21 +210,22 @@
                             quo suscipit.</div>
                         <div class="main-reviews__customers-block_triangle"></div>
                         <div class="main-reviews__customers-block__photo">
-                            <img src="img/Ellipse_3.png" alt="img">
+                            <img class="main-reviews__customers-block__photo_img" src="img/Ellipse_3.png" alt="img">
                             <div class="main-reviews__customers-block__photo-info">
                                 <h4 class="main-reviews__customers-block__photo-info_name">Cooper Dorwart</h4>
                                 <h5 class="main-reviews__customers-block__photo-info_job">Manager</h5>
                             </div>
                         </div>
                     </div>
-                </div>               
+                </div>
+                <img class="main-reviews__customers_dots" src="img/dots.png" alt="img">               
             </div>
             <div class="main-banner">
                 <div class="main-banner-bg">
                     <div class="main-banner-bg__content">
-                        <h2 class="main-banner-bg__content_h2">STYLISH AXURE DESIGN</h2>
+                        <h2 class="main-banner-bg__content_title">STYLISH AXURE DESIGN</h2>
                         <hr class="main-banner-bg__content_line">
-                        <h5 class="main-banner-bg__content_h5">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h5>
+                        <h5 class="main-banner-bg__content_subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h5>
                         <div class="main-banner-bg__content__button">
                             <button class="main-banner-bg__content__button_none" download>Download</button>
                         </div>
@@ -246,14 +250,14 @@
         </div>
         <footer class="footer">
             <div class="footer__links">
-                <a class="footer__links_icon" href="https://www.facebook.com/" target="_blank"><img src="img/facebook_icon.png" alt="fb"></a>
-                <a class="footer__links_icon" href="https://twitter.com/" target="_blank"><img src="img/twitter_icon.png" alt="tw"></a>
-                <a class="footer__links_icon" href="https://ru.linkedin.com/" target="_blank"><img src="img/linkedin_icon.png" alt="in"></a>
-                <a class="footer__links_icon" href="https://www.pinterest.com/" target="_blank"><img src="img/pinterest_icon.png" alt="p"></a>
-                <a class="footer__links_icon" href="https://www.instagram.com/" target="_blank"><img src="img/instagram_icon.png" alt="inst"></a>
-                <a class="footer__links_icon" href="https://github.com/" target="_blank"><img src="img/github_icon.png" alt="git"></a>
-                <a class="footer__links_icon" href="#"><img src="img/rss_icon.png" alt="hz"></a>
+                <a class="footer__links_icon" href="https://www.facebook.com/" target="_blank"><img class="footer__links_img" src="img/facebook_icon.png" alt="fb"></a>
+                <a class="footer__links_icon" href="https://twitter.com/" target="_blank"><img class="footer__links_img" src="img/twitter_icon.png" alt="tw"></a>
+                <a class="footer__links_icon" href="https://ru.linkedin.com/" target="_blank"><img class="footer__links_img" src="img/linkedin_icon.png" alt="in"></a>
+                <a class="footer__links_icon" href="https://www.pinterest.com/" target="_blank"><img class="footer__links_img" src="img/pinterest_icon.png" alt="p"></a>
+                <a class="footer__links_icon" href="https://www.instagram.com/" target="_blank"><img class="footer__links_img" src="img/instagram_icon.png" alt="inst"></a>
+                <a class="footer__links_icon" href="https://github.com/" target="_blank"><img class="footer__links_img" src="img/github_icon.png" alt="git"></a>
+                <a class="footer__links_icon" href="#"><img class="footer__links_img" src="img/rss_icon.png" alt="hz"></a>
             </div>
-            <h5 class="footer_h5">© 2015 Axure Themes</h5>
+            <h5 class="footer_subtitle">© 2015 Axure Themes</h5>
         </footer>
     </body>

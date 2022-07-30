@@ -1,10 +1,8 @@
 .main-contact{
     max-width: 1170px;
     margin: auto;
-    /* height: 722px; */
 }
 .main-contact_title{
-    height: 150px;
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     font-weight: 400;
@@ -34,14 +32,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 89px;
+    margin: 89px 15px 0;
 }
 .main-contact__form-inputs{
-    height: 211px;
-    width: 571px;
+    max-height: 211px;
+    max-width: 50%;
+    width: 100%;
+    height: 100%;
+    padding-right: 10px;
 }
 .main-contact__form-inputs_string{
-    width: 571px;
+    width: 100%;
     height: 38px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -55,8 +56,9 @@
     font-size: 14px;
     font-weight: 400;
     resize: none;
-    width: 569px;
-    height: 211px;
+    max-width: 50%;
+    width: 100%;
+    height: 212px;
     margin-bottom: 50px;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
 }
@@ -76,4 +78,52 @@
 }
 .main-contact__form_button:active{
     background-color: rgba(236, 121, 121, 1);
+}
+@media (max-width: 1024px){
+    .main-contact_title{
+        font-size: 24px;
+        padding-top: 98px;
+        padding-bottom: 0;
+        font-weight: 700;
+    }
+    .main-contact_border{
+        width: 143px;
+        margin-top: 48px;
+    }
+    .main-contact_subtitle{
+        font-size: 14px;
+        margin-top: 32px;
+    }
+    .main-contact__form{
+        margin-top: 72px;
+    }
+    .main-contact__form_button{
+        width: 318px;
+    }
+}
+@media (max-width: 750px){
+    .main-contact_title{
+        padding-top: 48px;
+    }
+    .main-contact_border{
+        width: 134px;
+    }
+    .main-contact_subtitle{
+        margin-top: 24px;
+    }
+    .main-contact__form{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 64px;
+    }
+    .main-contact__form-inputs{
+        max-width: 100%;
+    }
+    .main-contact__form-area{
+        max-width: 100%;
+        margin-top: 49px;
+    }
+    .main-contact__form_button{
+        width: 288px;
+    }
 }
